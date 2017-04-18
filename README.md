@@ -11,7 +11,7 @@ Time spent: 8 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.1.1
     - Fixed in version: 4.1.2
-  - [X] GIF Walkthrough: https://imgur.com/a/7eWvQ
+  - [X] GIF Walkthrough: <img src='http://i.imgur.com/zVNc3DC.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
   - [X] Steps to recreate: Go to any post to make a comment. In the comment part, use the html tags. After the html tags, add your XSS script and when the user or admin view the comment, the script will run.
   - [X] Affected source code:
     - [Link](https://cedricvb.be/post/wordpress-stored-xss-vulnerability-4-1-2/)
@@ -21,7 +21,7 @@ Time spent: 8 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.1.1
     - Fixed in version: 4.1.2
-  - [X] GIF Walkthrough: https://imgur.com/a/JgmBX
+  - [X] GIF Walkthrough: <img src='http://i.imgur.com/As3Yqj0.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
   - [X] Steps to recreate:  User admin privilege to enter the following harmful tags in a page or posting using the HTML edit mode:
   sometext\<a href="[caption code=">]\</a><a title=" onmouseover=alert('test')  ">link\</a>
   
@@ -33,7 +33,7 @@ Time spent: 8 hours spent in total
     - Vulnerability types:XSS
     - Tested in version: 4.1.1
     - Fixed in version: 4.1.6
-  - [X] GIF Walkthrough: https://imgur.com/a/JgmBX
+  - [X] GIF Walkthrough: <img src='http://i.imgur.com/oyLhX9V.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
   - [X] Steps to recreate: Loged in as admin, make a post containing the following script
        XSS!!![caption width="1" caption='<a href="' ">]\</a>\<a href="http://onMouseOver='alert(1)'">Click me\</a>
        When the content is loaded, the harmful html tags will be filtered out but when we use nested tags, this filter will not work as expected, thus leaving out a backdoor for hackers.
